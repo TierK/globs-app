@@ -1,0 +1,25 @@
+.PackDetails {
+  text-align: right;
+  list-style: none;
+  max-width: 220px;
+  margin: 12px 50px 20px 20px;
+  font-size: 13px;
+  li {
+    position: relative;
+    padding: 10px 10px 8px 0;
+    &:before {
+      content: url("../../../../imgs/check-grey.svg");
+      position: absolute;
+      top: 0;
+      right: -20px;
+    }
+  }
+}
+
+.toplist{
+  li {
+    &:before {
+      content: url("../../../../imgs/check-red.svg");
+    }
+}
+}

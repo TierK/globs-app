@@ -1,0 +1,22 @@
+@import '../../../../styles/config';
+
+.PackButton{
+    width: 60%;
+    color: $topDealClr;
+    border: 1px solid $topDealClr;
+    border-radius: 2px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.topBtn{
+    width: 50%;
+    background-color: $topDealClr;
+    color: $topDealTxtClr;
+    border: 1px solid $topDealClr;
+    border-radius: 2px;
+    height: 40px;
+    font-weight: 500;
+}
+    

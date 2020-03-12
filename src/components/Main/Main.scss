@@ -1,0 +1,41 @@
+@import "../../styles/config";
+
+.Main{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: $paperClr;
+    font-size: 48px;
+    line-height: 1.1;
+    width: 100%;
+    height: 3.5em;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: $containerWidth;
+        margin: 0 auto ;
+
+        img{
+            width: 220px;
+            align-self: flex-end;
+            
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .Main{
+        height: fit-content;
+        font-size: 30px;
+        .container{
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                align-self: unset;
+            }
+        }
+    }
+}

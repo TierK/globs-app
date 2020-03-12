@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import './App.scss';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import Description from './components/Description/Description';
+import DealMenu from './components/DealMenu/DealMenu';
 
-function App() {
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { windowWidth: 0 };
+  }
+
+  componentDidMount() {
+    this.updateDimensions();
+    window.addEventListener("resize", this.updateDimensions.bind(this));
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateDimensions.bind(this));
+  }
+
+  updateDimensions() {
+    let windowWidth = typeof window !== "undefined" ? window.innerWidth : 0;
+
+    this.setState({ windowWidth });
+  }
+
+render() {
+  const { windowWidth } = this.state;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header/>
+        <Main/>
+        <Description/>
+        <DealMenu/>
     </div>
   );
 }
-
-export default App;
+}

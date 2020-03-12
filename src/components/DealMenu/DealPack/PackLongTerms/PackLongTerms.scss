@@ -1,0 +1,26 @@
+.PackLongTerms {
+  position: relative;
+  left: 60px;
+  bottom: -40px;
+
+   &:before {
+    content: "";
+    position: absolute;
+    border-top: 1px solid #d4d4d4;
+    width: 80%;
+    text-align: center;
+    left: -30px;
+    top: -15px;
+  }
+
+   &:after {
+    content: "";
+    border: solid #1a1a1a;
+    border-width: 0 1px 1px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    transition: transform 0.3s ease;
+    position: absolute;
+    left: 100px;
+  }
+}

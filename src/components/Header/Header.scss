@@ -1,0 +1,34 @@
+.Header{
+    width: 100%;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+    img{
+        float: right;
+        max-height: 40px;
+    }
+
+    sub{
+        font-size: 11px;
+    }
+}
+
+.small-logo {
+    display: none;
+        width: 45px;
+    }
+
+.large-logo {
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .small-logo {
+        display: block;
+    }
+
+    .large-logo {
+        display: none;
+    }
+}
