@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/globs-app/static/css/main.878219f3.chunk.css",
+    "main.js": "/globs-app/static/js/main.76b445e6.chunk.js",
+    "main.js.map": "/globs-app/static/js/main.76b445e6.chunk.js.map",
+    "runtime-main.js": "/globs-app/static/js/runtime-main.a915b3f5.js",
+    "runtime-main.js.map": "/globs-app/static/js/runtime-main.a915b3f5.js.map",
+    "static/js/2.9ce390ea.chunk.js": "/globs-app/static/js/2.9ce390ea.chunk.js",
+    "static/js/2.9ce390ea.chunk.js.map": "/globs-app/static/js/2.9ce390ea.chunk.js.map",
+    "index.html": "/globs-app/index.html",
+    "precache-manifest.3170a89addc5f793308a439e9dd301c0.js": "/globs-app/precache-manifest.3170a89addc5f793308a439e9dd301c0.js",
+    "service-worker.js": "/globs-app/service-worker.js",
+    "static/css/main.878219f3.chunk.css.map": "/globs-app/static/css/main.878219f3.chunk.css.map",
+    "static/js/2.9ce390ea.chunk.js.LICENSE.txt": "/globs-app/static/js/2.9ce390ea.chunk.js.LICENSE.txt",
+    "static/media/PackDetails.scss": "/globs-app/static/media/check-red.bd68e58e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a915b3f5.js",
+    "static/js/2.9ce390ea.chunk.js",
+    "static/css/main.878219f3.chunk.css",
+    "static/js/main.76b445e6.chunk.js"
+  ]
+}
