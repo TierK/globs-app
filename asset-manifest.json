@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/globs-app/static/css/main.e36280e8.chunk.css",
+    "main.css": "/globs-app/static/css/main.c9883c80.chunk.css",
     "main.js": "/globs-app/static/js/main.76b445e6.chunk.js",
     "main.js.map": "/globs-app/static/js/main.76b445e6.chunk.js.map",
     "runtime-main.js": "/globs-app/static/js/runtime-main.a915b3f5.js",
@@ -8,16 +8,16 @@
     "static/js/2.9ce390ea.chunk.js": "/globs-app/static/js/2.9ce390ea.chunk.js",
     "static/js/2.9ce390ea.chunk.js.map": "/globs-app/static/js/2.9ce390ea.chunk.js.map",
     "index.html": "/globs-app/index.html",
-    "precache-manifest.17778e8006fc7945307621d6d2019dd9.js": "/globs-app/precache-manifest.17778e8006fc7945307621d6d2019dd9.js",
+    "precache-manifest.e7331abc288f1761bd1d9c9547c03e89.js": "/globs-app/precache-manifest.e7331abc288f1761bd1d9c9547c03e89.js",
     "service-worker.js": "/globs-app/service-worker.js",
-    "static/css/main.e36280e8.chunk.css.map": "/globs-app/static/css/main.e36280e8.chunk.css.map",
+    "static/css/main.c9883c80.chunk.css.map": "/globs-app/static/css/main.c9883c80.chunk.css.map",
     "static/js/2.9ce390ea.chunk.js.LICENSE.txt": "/globs-app/static/js/2.9ce390ea.chunk.js.LICENSE.txt",
     "static/media/PackDetails.scss": "/globs-app/static/media/check-red.bd68e58e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a915b3f5.js",
     "static/js/2.9ce390ea.chunk.js",
-    "static/css/main.e36280e8.chunk.css",
+    "static/css/main.c9883c80.chunk.css",
     "static/js/main.76b445e6.chunk.js"
   ]
 }

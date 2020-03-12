@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2aec04335868d1bb982098bb2210bbd4",
+    "revision": "90ea50b18e7da160023bc73e425b3666",
     "url": "/globs-app/index.html"
   },
   {
-    "revision": "915404f8a23c8a7c6f37",
-    "url": "/globs-app/static/css/main.e36280e8.chunk.css"
+    "revision": "19687a8021247ce181c8",
+    "url": "/globs-app/static/css/main.c9883c80.chunk.css"
   },
   {
     "revision": "d088a9230355287767d5",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/globs-app/static/js/2.9ce390ea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "915404f8a23c8a7c6f37",
+    "revision": "19687a8021247ce181c8",
     "url": "/globs-app/static/js/main.76b445e6.chunk.js"
   },
   {
